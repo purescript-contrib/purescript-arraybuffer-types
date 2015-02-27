@@ -18,15 +18,15 @@ type ByteOffset = Number
 type ByteLength = Number
 
 
-newtype Int8 = Int8 Number
-newtype Int16 = Int16 Number
-newtype Int32 = Int32 Number
-newtype Uint8 = Uint8 Number
-newtype Uint16 = Uint16 Number
-newtype Uint32 = Uint32 Number
-newtype Uint8Clamped = Uint8Clamped Number
-newtype Float32 = Float32 Number
-newtype Float64 = Float64 Number
+data Int8
+data Int16
+data Int32
+data Uint8
+data Uint16
+data Uint32
+data Uint8Clamped
+data Float32
+data Float64
 
 type Int8Array = ArrayView Int8
 type Int16Array = ArrayView Int16
