@@ -45,72 +45,63 @@ Length in bytes of a DataView or ArrayBuffer
 #### `Int8`
 
 ``` purescript
-newtype Int8
-  = Int8 Number
+data Int8
 ```
 
 
 #### `Int16`
 
 ``` purescript
-newtype Int16
-  = Int16 Number
+data Int16
 ```
 
 
 #### `Int32`
 
 ``` purescript
-newtype Int32
-  = Int32 Number
+data Int32
 ```
 
 
 #### `Uint8`
 
 ``` purescript
-newtype Uint8
-  = Uint8 Number
+data Uint8
 ```
 
 
 #### `Uint16`
 
 ``` purescript
-newtype Uint16
-  = Uint16 Number
+data Uint16
 ```
 
 
 #### `Uint32`
 
 ``` purescript
-newtype Uint32
-  = Uint32 Number
+data Uint32
 ```
 
 
 #### `Uint8Clamped`
 
 ``` purescript
-newtype Uint8Clamped
-  = Uint8Clamped Number
+data Uint8Clamped
 ```
 
 
 #### `Float32`
 
 ``` purescript
-newtype Float32
-  = Float32 Number
+data Float32
 ```
 
 
 #### `Float64`
 
 ``` purescript
-newtype Float64
-  = Float64 Number
+data Float64
 ```
 
 
