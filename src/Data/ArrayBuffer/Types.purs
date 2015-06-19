@@ -1,6 +1,5 @@
 module Data.ArrayBuffer.Types where
 
-
 -- | Represents a JS ArrayBuffer object
 foreign import data ArrayBuffer :: *
 
@@ -10,13 +9,11 @@ foreign import data DataView :: *
 -- | The unifying representation for the different typed arrays
 foreign import data ArrayView :: * -> *
 
-
 -- | Offset in bytes into a DataView or ArrayBufer
-type ByteOffset = Number
+type ByteOffset = Int
 
 -- | Length in bytes of a DataView or ArrayBuffer
-type ByteLength = Number
-
+type ByteLength = Int
 
 data Int8
 data Int16
@@ -36,10 +33,4 @@ type Uint16Array = ArrayView Uint16
 type Uint32Array = ArrayView Uint32
 type Uint8ClampedArray = ArrayView Uint8Clamped
 type Float32Array = ArrayView Float32
-type Float64Array = ArrayView Float64 
-
-
-
-
-
-       
+type Float64Array = ArrayView Float64
