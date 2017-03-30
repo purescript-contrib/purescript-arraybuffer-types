@@ -1,13 +1,13 @@
 module Data.ArrayBuffer.Types where
 
 -- | Represents a JS ArrayBuffer object
-foreign import data ArrayBuffer :: *
+foreign import data ArrayBuffer :: Type
 
 -- | Represents a JS DataView on an ArrayBuffer (a slice into the ArrayBuffer)
-foreign import data DataView :: *
+foreign import data DataView :: Type
 
 -- | The unifying representation for the different typed arrays
-foreign import data ArrayView :: * -> *
+foreign import data ArrayView :: Type -> Type
 
 -- | Offset in bytes into a DataView or ArrayBufer
 type ByteOffset = Int
