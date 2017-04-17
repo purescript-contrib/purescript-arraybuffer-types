@@ -7,7 +7,7 @@ foreign import data ArrayBuffer :: Type
 foreign import data DataView :: Type
 
 -- | The unifying representation for the different typed arrays
-foreign import data ArrayView :: Type -> Type
+foreign import data ArrayView :: ArrayViewType -> Type
 
 -- | Offset in bytes into a DataView or ArrayBufer
 type ByteOffset = Int
@@ -15,15 +15,17 @@ type ByteOffset = Int
 -- | Length in bytes of a DataView or ArrayBuffer
 type ByteLength = Int
 
-data Int8
-data Int16
-data Int32
-data Uint8
-data Uint16
-data Uint32
-data Uint8Clamped
-data Float32
-data Float64
+foreign import kind ArrayViewType
+
+foreign import data Int8 :: ArrayViewType
+foreign import data Int16 :: ArrayViewType
+foreign import data Int32 :: ArrayViewType
+foreign import data Uint8 :: ArrayViewType
+foreign import data Uint16 :: ArrayViewType
+foreign import data Uint32 :: ArrayViewType
+foreign import data Uint8Clamped :: ArrayViewType
+foreign import data Float32 :: ArrayViewType
+foreign import data Float64 :: ArrayViewType
 
 type Int8Array = ArrayView Int8
 type Int16Array = ArrayView Int16
