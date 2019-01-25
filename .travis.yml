@@ -6,6 +6,7 @@ install:
   - npm install -g bower
   - npm install
   - bower install
+  - pulp build
 script:
   - npm run -s build
 after_success:
