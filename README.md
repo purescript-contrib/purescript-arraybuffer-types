@@ -22,9 +22,7 @@ The quick start hasn't been written yet (contributions are welcome!). The quick 
 
 ## Documentation
 
-`arraybuffer-types` documentation is stored in a few places:
-
-1. Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-arraybuffer-types).
+`arraybuffer-types` documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-arraybuffer-types).
 
 If you get stuck, there are several ways to get help:
 
