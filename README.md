@@ -25,8 +25,6 @@ The quick start hasn't been written yet (contributions are welcome!). The quick 
 `arraybuffer-types` documentation is stored in a few places:
 
 1. Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-arraybuffer-types).
-2. Written documentation is kept in the [docs directory](./docs).
-3. Usage examples can be found in [the test suite](./test).
 
 If you get stuck, there are several ways to get help:
 
