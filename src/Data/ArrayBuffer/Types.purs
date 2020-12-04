@@ -15,7 +15,7 @@ type ByteOffset = Int
 -- | Length in bytes of a DataView or ArrayBuffer
 type ByteLength = Int
 
-foreign import kind ArrayViewType
+data ArrayViewType
 
 foreign import data Int8 :: ArrayViewType
 foreign import data Int16 :: ArrayViewType
