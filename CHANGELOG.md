@@ -5,16 +5,19 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes (😱!!!):
+- Added support for PureScript 0.14 and dropped support for all previous versions (#19)
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+- Changed default branch to `main` from `master`
+- Updated to comply with Contributors library guidelines by adding new issue and pull request templates, updating documentation, and migrating to Spago for local development and CI (#16)
 
 ## [v2.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v2.0.0) - 2017-09-25
 
-
+- Introduced `ArrayViewType` kind
 
 ## [v1.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v1.0.0) - 2017-04-02
 
@@ -22,9 +25,8 @@ Other improvements:
 
 ## [v0.2.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v0.2.0) - 2015-06-30
 
-This release works with versions 0.7.\* of the PureScript compiler. It will not work with older versions. If you are using an older version, you should require an older, compatible version of this library.
+- Updated for PureScript 0.7. It will not work with older versions. If you are using an older version, you should require an older, compatible version of this library.
 
-## [v0.2.0-rc.1](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v0.2.0-rc.1) - 2015-06-19
+## [v0.1.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v0.2.0) - 2015-02-17
 
-Initial release candidate of the library intended for the 0.7 compiler.
-
+- Initial library release.
