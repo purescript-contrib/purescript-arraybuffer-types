@@ -1,5 +1,7 @@
 { name = "arraybuffer-types"
-, dependencies = [ "console", "effect", "psci-support" ]
+, dependencies = [ "psci-support" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
+, license = "MIT"
+, repository = "https://github.com/purescript-contrib/purescript-arraybuffer-types"
 }
