@@ -4,7 +4,6 @@
 [![Release](https://img.shields.io/github/release/purescript-contrib/purescript-arraybuffer-types.svg)](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases)
 [![Pursuit](https://pursuit.purescript.org/packages/purescript-arraybuffer-types/badge)](https://pursuit.purescript.org/packages/purescript-arraybuffer-types)
 [![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-teal.svg)](https://github.com/garyb)
-[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-teal.svg)](https://github.com/thomashoneyman)
 
 Type definitions for JavaScript `ArrayBuffer`s.
 
