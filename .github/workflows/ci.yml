@@ -41,4 +41,6 @@ jobs:
           npm install bower pulp@16.0.0-0
           npx bower install
           npx pulp build -- --censor-lib --strict
-          npx pulp test
+          if [ -d "test" ]; then
+            npx pulp test
+          fi
