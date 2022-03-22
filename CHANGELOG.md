@@ -5,13 +5,13 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
-- Update project and deps to PureScript v0.15.0 (#26 by @JordanMartinez)
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+- Miscellaneous CI updates (#26 by @JordanMartinez)
 - Added `purs-tidy` formatter (#25 by @thomashoneyman)
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.0) - 2021-02-26
