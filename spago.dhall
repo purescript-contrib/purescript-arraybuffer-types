@@ -1,5 +1,5 @@
 { name = "arraybuffer-types"
-, dependencies = [ "psci-support" ]
+, dependencies = [ ] : List Text
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
 , license = "MIT"

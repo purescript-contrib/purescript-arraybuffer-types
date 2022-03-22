@@ -11,6 +11,7 @@ New features:
 Bugfixes:
 
 Other improvements:
+- Miscellaneous CI updates (#26 by @JordanMartinez)
 - Added `purs-tidy` formatter (#25 by @thomashoneyman)
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.0) - 2021-02-26
