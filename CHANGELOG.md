@@ -12,7 +12,7 @@ Bugfixes:
 
 Other improvements:
 
-## [v4.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v4.0.0) - 2022-04-27
+## [v3.0.1](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.1) - 2022-04-27
 
 Breaking changes:
 
