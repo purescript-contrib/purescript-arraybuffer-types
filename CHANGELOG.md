@@ -11,6 +11,16 @@ New features:
 Bugfixes:
 
 Other improvements:
+
+## [v4.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v4.0.0) - 2022-04-27
+
+Breaking changes:
+
+New features:
+
+Bugfixes:
+
+Other improvements:
 - Miscellaneous CI updates (#26 by @JordanMartinez)
 - Added `purs-tidy` formatter (#25 by @thomashoneyman)
 
