@@ -12,7 +12,7 @@ Bugfixes:
 
 Other improvements:
 
-## [v3.0.1](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.1) - 2022-04-27
+## [v3.0.2](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.2) - 2022-04-27
 
 Breaking changes:
 
@@ -23,6 +23,8 @@ Bugfixes:
 Other improvements:
 - Miscellaneous CI updates (#26 by @JordanMartinez)
 - Added `purs-tidy` formatter (#25 by @thomashoneyman)
+
+## [v3.0.1](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.1) - 2021-07-21
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.0) - 2021-02-26
 
