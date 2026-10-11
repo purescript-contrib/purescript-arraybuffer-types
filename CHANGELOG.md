@@ -11,6 +11,10 @@ New features:
 Bugfixes:
 
 Other improvements:
+
+## [v3.0.3](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.3) - 2026-10-11
+
+Other improvements:
 - Migrated to registry-backed Spago and updated CI tooling.
 
 ## [v3.0.2](https://github.com/purescript-contrib/purescript-arraybuffer-types/releases/tag/v3.0.2) - 2022-04-27
